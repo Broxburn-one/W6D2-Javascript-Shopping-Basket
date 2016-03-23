@@ -46,5 +46,10 @@ describe('basket', function() {
     assert.equal(27, basket.apply_card_discount());
    })
 
+   // it ('should give one free if you buy two', function() {
+   //   basket.add_item({name: 'soap',
+   //                  price: 2.5 });  // add 2nd identical item to basket
+   //   assert.equal(27, basket.apply_bogof());
+   // })
 
 });

@@ -42,6 +42,22 @@ var basket = {
       return total_price;
      }
   }
+  // apply_bogof: function() {
+  //   // create array of hashes listing name, price and count for each
+  //   // loop through this and  divide by 2 then add the modulus
+  //   // multiply price by this value and += to total_price
+  //   var bogof = {
+  //     name: "",
+  //     price: 0,
+  //     count: 0
+  //   }
+  //   for (item of this.items) {
+  //     // check if item exists in bogof hash; if not add it; if it does, add 1 to it's count
+      
+  //   }
+
+
+  // }
 
 };
 
